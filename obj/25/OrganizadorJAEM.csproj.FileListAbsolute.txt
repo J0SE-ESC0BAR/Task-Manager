@@ -1,0 +1,8 @@
+D:\JAEM\ESTUDIOS\UTEC\2025\Administracion de centros de computo\TaskControlCenter-main\obj\25\OrganizadorJAEM.csproj.AssemblyReference.cache
+D:\JAEM\ESTUDIOS\UTEC\2025\Administracion de centros de computo\TaskControlCenter-main\obj\25\OrganizadorJAEM.Prinsipal.resources
+D:\JAEM\ESTUDIOS\UTEC\2025\Administracion de centros de computo\TaskControlCenter-main\obj\25\OrganizadorJAEM.Properties.Resources.resources
+D:\JAEM\ESTUDIOS\UTEC\2025\Administracion de centros de computo\TaskControlCenter-main\obj\25\OrganizadorJAEM.Registrar.resources
+D:\JAEM\ESTUDIOS\UTEC\2025\Administracion de centros de computo\TaskControlCenter-main\obj\25\OrganizadorJAEM.csproj.GenerateResource.cache
+D:\JAEM\ESTUDIOS\UTEC\2025\Administracion de centros de computo\TaskControlCenter-main\obj\25\OrganizadorJAEM.csproj.CoreCompileInputs.cache
+D:\JAEM\ESTUDIOS\UTEC\2025\Administracion de centros de computo\TaskControlCenter-main\obj\25\OrganizadorJAEM.exe
+D:\JAEM\ESTUDIOS\UTEC\2025\Administracion de centros de computo\TaskControlCenter-main\obj\25\OrganizadorJAEM.pdb

@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\JAEM\\ESTUDIOS\\UTEC\\2025\\Administracion de centros de computo\\Task Manager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7CBEA167-EAC1-421B-8E00-B6B60D23CC9D}|Task Manager.csproj|D:\\JAEM\\ESTUDIOS\\UTEC\\2025\\Administracion de centros de computo\\Task Manager\\forms\\prinsipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7CBEA167-EAC1-421B-8E00-B6B60D23CC9D}|Task Manager.csproj|solutionrelative:forms\\prinsipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CBEA167-EAC1-421B-8E00-B6B60D23CC9D}|Task Manager.csproj|d:\\jaem\\estudios\\utec\\2025\\administracion de centros de computo\\task manager\\forms\\prinsipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CBEA167-EAC1-421B-8E00-B6B60D23CC9D}|Task Manager.csproj|solutionrelative:forms\\prinsipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Prinsipal.cs",
+              "DocumentMoniker": "D:\\JAEM\\ESTUDIOS\\UTEC\\2025\\Administracion de centros de computo\\Task Manager\\Forms\\Prinsipal.cs",
+              "RelativeDocumentMoniker": "Forms\\Prinsipal.cs",
+              "ToolTip": "D:\\JAEM\\ESTUDIOS\\UTEC\\2025\\Administracion de centros de computo\\Task Manager\\Forms\\Prinsipal.cs",
+              "RelativeToolTip": "Forms\\Prinsipal.cs",
+              "ViewState": "AQIAAMsCAAAAAAAAAAAAAN8CAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T14:57:13.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Prinsipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\JAEM\\ESTUDIOS\\UTEC\\2025\\Administracion de centros de computo\\Task Manager\\Forms\\Prinsipal.cs",
+              "RelativeDocumentMoniker": "Forms\\Prinsipal.cs",
+              "ToolTip": "D:\\JAEM\\ESTUDIOS\\UTEC\\2025\\Administracion de centros de computo\\Task Manager\\Forms\\Prinsipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\Prinsipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T16:28:24.512Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
