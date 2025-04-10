@@ -22,8 +22,14 @@ namespace OrganizadorJAEM
 
         private int idSeleccionado = -1;
 
-        public Prinsipal()
+        string mkTB_Carnet;
+        string txb_Clave;
+
+        public Prinsipal(string mkTB_Carnet, string txb_Clave)
         {
+            this.mkTB_Carnet = mkTB_Carnet;
+            this.txb_Clave = txb_Clave;
+
             //Prinsipal.cadenaConexion = cadenaConexion;
             InitializeComponent();
             Terminal("Inicializando programa");
@@ -225,9 +231,9 @@ namespace OrganizadorJAEM
         //    {
         //        ckB_TutorPagado.Checked = true;
         //    }
-        //}
-        private int rowIndexUnderMouse = -1;
-        private int selectedRowCount = 0;
+        ////}
+        //private int rowIndexUnderMouse = -1;
+        //private int selectedRowCount = 0;
 
         //private void dGV_TareasProgramadas_CellMouseEnter(object sender, DataGridViewCellEventArgs e)
         //{
@@ -364,17 +370,17 @@ namespace OrganizadorJAEM
         //{
         //    cB_MetodoPagoTarea.DroppedDown = true;
         //}
-        private void registrarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Registrar RegistrarEstudiante = new Registrar("Estudiante");
-            RegistrarEstudiante.Show();
-        }
+        //private void registrarToolStripMenuItem_Click(object sender, EventArgs e)
+        //{
+        //    Inicio RegistrarEstudiante = new Inicio("Estudiante");
+        //    RegistrarEstudiante.Show();
+        //}
 
-        private void registrarTutorToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Registrar RegistrarTutor = new Registrar("Tutor");
-            RegistrarTutor.Show();
-        }
+        //private void registrarTutorToolStripMenuItem_Click(object sender, EventArgs e)
+        //{
+        //    Inicio RegistrarTutor = new Inicio("Tutor");
+        //    RegistrarTutor.Show();
+        //}
         //private void btn_AgregarTarea_Click(object sender, EventArgs e)
         //{
         //    int indiceEstudianteComboBox = cB_Estudiante.SelectedIndex;
@@ -683,7 +689,7 @@ namespace OrganizadorJAEM
             {
                     Terminal("Scrapeado tareas ...");
                     TS = new TareasScraping(this);
-                    await TS.Scraping("2931882022", "9EM@ñ()22a");
+                    await TS.Scraping(mkTB_Carnet, txb_Clave);
                     DataTable dataTable = new DataTable();
                     dataTable.Columns.Add("Estudiante", typeof(string));
                     dataTable.Columns.Add("Tema", typeof(string));

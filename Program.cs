@@ -19,7 +19,7 @@ namespace OrganizadorJAEM
 
             try
             {
-                Application.Run(new Prinsipal());
+                Application.Run(new Inicio());
             }
             catch (Exception ex)
             {

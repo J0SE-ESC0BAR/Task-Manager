@@ -270,14 +270,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OrganizadorJAEM.exe" size="284160">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OrganizadorJAEM.exe" size="268800">
       <assemblyIdentity name="OrganizadorJAEM" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1tfm79XhRMEoLkEF51kNRslf7J9wsj6V60k7ekVvfEI=</dsig:DigestValue>
+        <dsig:DigestValue>XhZN8tzfbtN5D4NJ8uDt99Q9aRoJuvahwOOGCTxiE14=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

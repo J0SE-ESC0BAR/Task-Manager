@@ -800,7 +800,6 @@ D:\JAEM\ESTUDIOS\UTEC\2025\Administracion de centros de computo\Task-Manager\bin
 D:\JAEM\ESTUDIOS\UTEC\2025\Administracion de centros de computo\Task-Manager\obj\Debug\Task Manager.csproj.AssemblyReference.cache
 D:\JAEM\ESTUDIOS\UTEC\2025\Administracion de centros de computo\Task-Manager\obj\Debug\OrganizadorJAEM.Prinsipal.resources
 D:\JAEM\ESTUDIOS\UTEC\2025\Administracion de centros de computo\Task-Manager\obj\Debug\OrganizadorJAEM.Properties.Resources.resources
-D:\JAEM\ESTUDIOS\UTEC\2025\Administracion de centros de computo\Task-Manager\obj\Debug\OrganizadorJAEM.Registrar.resources
 D:\JAEM\ESTUDIOS\UTEC\2025\Administracion de centros de computo\Task-Manager\obj\Debug\Task Manager.csproj.GenerateResource.cache
 D:\JAEM\ESTUDIOS\UTEC\2025\Administracion de centros de computo\Task-Manager\obj\Debug\Task Manager.csproj.CoreCompileInputs.cache
 D:\JAEM\ESTUDIOS\UTEC\2025\Administracion de centros de computo\Task-Manager\obj\Debug\OrganizadorJAEM.exe.manifest
@@ -808,3 +807,4 @@ D:\JAEM\ESTUDIOS\UTEC\2025\Administracion de centros de computo\Task-Manager\obj
 D:\JAEM\ESTUDIOS\UTEC\2025\Administracion de centros de computo\Task-Manager\obj\Debug\Task Man.74AF0842.Up2Date
 D:\JAEM\ESTUDIOS\UTEC\2025\Administracion de centros de computo\Task-Manager\obj\Debug\OrganizadorJAEM.exe
 D:\JAEM\ESTUDIOS\UTEC\2025\Administracion de centros de computo\Task-Manager\obj\Debug\OrganizadorJAEM.pdb
+D:\JAEM\ESTUDIOS\UTEC\2025\Administracion de centros de computo\Task-Manager\obj\Debug\OrganizadorJAEM.Inicio.resources

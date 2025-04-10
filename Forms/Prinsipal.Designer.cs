@@ -94,16 +94,15 @@ namespace OrganizadorJAEM
             this.nuevoEstudianteToolStripMenuItem.BackColor = System.Drawing.Color.DimGray;
             this.nuevoEstudianteToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.nuevoEstudianteToolStripMenuItem.Name = "nuevoEstudianteToolStripMenuItem";
-            this.nuevoEstudianteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.nuevoEstudianteToolStripMenuItem.Text = "&Registrar Estudiante";
-            this.nuevoEstudianteToolStripMenuItem.Click += new System.EventHandler(this.registrarToolStripMenuItem_Click);
+            this.nuevoEstudianteToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.nuevoEstudianteToolStripMenuItem.Text = "Cerrar sesión";
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.BackColor = System.Drawing.Color.DimGray;
             this.salirToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.salirToolStripMenuItem.Text = "&Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -126,7 +125,7 @@ namespace OrganizadorJAEM
             this.acercadeToolStripMenuItem.BackColor = System.Drawing.Color.DimGray;
             this.acercadeToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.acercadeToolStripMenuItem.Name = "acercadeToolStripMenuItem";
-            this.acercadeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.acercadeToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.acercadeToolStripMenuItem.Text = "&Acerca de...";
             // 
             // Buscar
