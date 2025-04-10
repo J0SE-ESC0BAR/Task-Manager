@@ -701,7 +701,7 @@ namespace OrganizadorJAEM
                     {
                         DataRow row = dataTable.NewRow();
 
-                        row["Estudiante"] = "Jose";
+                        row["Estudiante"] = "Ederish";
                         row["Tema"] = tar.Tema;
                         row["Descripcion"] = tar.Descripcion;
                         row["Vence"] = tar.Vencimiento.ToString("M");
