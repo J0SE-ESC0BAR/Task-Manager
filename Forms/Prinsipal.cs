@@ -33,7 +33,8 @@ namespace OrganizadorJAEM
 
         private void CargarDatos()
         {
-            Terminal("Cargando tareas");
+            btn_ScrapearTareas_Click(this, EventArgs.Empty);
+            //Terminal("Cargando tareas");
             //CargarTareasPendientes();
             //CargarPagosTareas();
             //CargarPagosTutores();
@@ -69,20 +70,20 @@ namespace OrganizadorJAEM
             }
         }
 
-        private void CargarEstudiantes()
-        {
-            // Simulación en memoria sin BD:
-            listaEstudiantes = new List<Estudiante>()
-                {
-                    new Estudiante("Nombre 1", "1111"),
-                    new Estudiante("Nombre 2", "2222")
-                };
-            foreach (var estudiante in listaEstudiantes)
-            {
-                cB_Estudiante.Items.Add(estudiante.Nombre);
-                //cB_ScraperEstudiante.Items.Add(estudiante.Nombre);
-            }
-        }
+        //private void CargarEstudiantes()
+        //{
+        //    // Simulación en memoria sin BD:
+        //    listaEstudiantes = new List<Estudiante>()
+        //        {
+        //            new Estudiante("Nombre 1", "1111"),
+        //            new Estudiante("Nombre 2", "2222")
+        //        };
+        //    foreach (var estudiante in listaEstudiantes)
+        //    {
+        //        cB_Estudiante.Items.Add(estudiante.Nombre);
+        //        //cB_ScraperEstudiante.Items.Add(estudiante.Nombre);
+        //    }
+        //}
 
 
 
@@ -192,39 +193,39 @@ namespace OrganizadorJAEM
             Buscar.Text = "Buscar";
         }
 
-        private void ckB_TareaTerminada_MouseEnter(object sender, EventArgs e)
-        {
-            if (ckB_TareaTerminada.Checked == true)
-            {
-                ckB_TareaTerminada.Checked = false;
-            }
-            else
-            {
-                ckB_TareaTerminada.Checked = true;
-            }
-        }
-        private void ckB_TareaEntregada_MouseEnter(object sender, EventArgs e)
-        {
-            if (ckB_TareaEntregada.Checked == true)
-            {
-                ckB_TareaEntregada.Checked = false;
-            }
-            else
-            {
-                ckB_TareaEntregada.Checked = true;
-            }
-        }
-        private void ckB_TutorPagado_MouseEnter(object sender, EventArgs e)
-        {
-            if (ckB_TutorPagado.Checked == true)
-            {
-                ckB_TutorPagado.Checked = false;
-            }
-            else
-            {
-                ckB_TutorPagado.Checked = true;
-            }
-        }
+        //private void ckB_TareaTerminada_MouseEnter(object sender, EventArgs e)
+        //{
+        //    if (ckB_TareaTerminada.Checked == true)
+        //    {
+        //        ckB_TareaTerminada.Checked = false;
+        //    }
+        //    else
+        //    {
+        //        ckB_TareaTerminada.Checked = true;
+        //    }
+        //}
+        //private void ckB_TareaEntregada_MouseEnter(object sender, EventArgs e)
+        //{
+        //    if (ckB_TareaEntregada.Checked == true)
+        //    {
+        //        ckB_TareaEntregada.Checked = false;
+        //    }
+        //    else
+        //    {
+        //        ckB_TareaEntregada.Checked = true;
+        //    }
+        //}
+        //private void ckB_TutorPagado_MouseEnter(object sender, EventArgs e)
+        //{
+        //    if (ckB_TutorPagado.Checked == true)
+        //    {
+        //        ckB_TutorPagado.Checked = false;
+        //    }
+        //    else
+        //    {
+        //        ckB_TutorPagado.Checked = true;
+        //    }
+        //}
         private int rowIndexUnderMouse = -1;
         private int selectedRowCount = 0;
 
@@ -289,45 +290,45 @@ namespace OrganizadorJAEM
         //        idSeleccionado = -1;
         //    }
         //}
-        private void ckB_TareaPagada_MouseEnter(object sender, EventArgs e)
-        {
-            if (ckB_TareaPagada.Checked == true)
-            {
-                Thread.Sleep(100);
-                ckB_TareaPagada.Checked = false;
-            }
-            else
-            {
-                Thread.Sleep(100);
-                ckB_TareaPagada.Checked = true;
-            }
-        }
-        private void ckB_TareaIniciada_MouseEnter(object sender, EventArgs e)
-        {
-            if (ckB_TareaIniciada.Checked == true)
-            {
-                Thread.Sleep(100);
-                ckB_TareaIniciada.Checked = false;
-            }
-            else
-            {
-                Thread.Sleep(100);
-                ckB_TareaIniciada.Checked = true;
-            }
-        }
-        private void checkBox5_MouseEnter(object sender, EventArgs e)
-        {
-            if (ckB_TareaTerminada.Checked == true)
-            {
-                Thread.Sleep(100);
-                ckB_TareaTerminada.Checked = false;
-            }
-            else
-            {
-                Thread.Sleep(100);
-                ckB_TareaTerminada.Checked = true;
-            }
-        }
+        //private void ckB_TareaPagada_MouseEnter(object sender, EventArgs e)
+        //{
+        //    if (ckB_TareaPagada.Checked == true)
+        //    {
+        //        Thread.Sleep(100);
+        //        ckB_TareaPagada.Checked = false;
+        //    }
+        //    else
+        //    {
+        //        Thread.Sleep(100);
+        //        ckB_TareaPagada.Checked = true;
+        //    }
+        //}
+        //private void ckB_TareaIniciada_MouseEnter(object sender, EventArgs e)
+        //{
+        //    if (ckB_TareaIniciada.Checked == true)
+        //    {
+        //        Thread.Sleep(100);
+        //        ckB_TareaIniciada.Checked = false;
+        //    }
+        //    else
+        //    {
+        //        Thread.Sleep(100);
+        //        ckB_TareaIniciada.Checked = true;
+        //    }
+        //}
+        //private void checkBox5_MouseEnter(object sender, EventArgs e)
+        //{
+        //    if (ckB_TareaTerminada.Checked == true)
+        //    {
+        //        Thread.Sleep(100);
+        //        ckB_TareaTerminada.Checked = false;
+        //    }
+        //    else
+        //    {
+        //        Thread.Sleep(100);
+        //        ckB_TareaTerminada.Checked = true;
+        //    }
+        //}
         //private void checkBox2_MouseEnter(object sender, EventArgs e)
         //{
         //    if (ckB_EntregarPortal.Checked == true)
@@ -393,10 +394,10 @@ namespace OrganizadorJAEM
         //    }
         //}
 
-        private void cBEstudiante_MouseHover(object sender, EventArgs e)
-        {
-            cB_Estudiante.DroppedDown = true;
-        }
+        //private void cBEstudiante_MouseHover(object sender, EventArgs e)
+        //{
+        //    cB_Estudiante.DroppedDown = true;
+        //}
 
         //private void cB_Tutor_MouseHover(object sender, EventArgs e)
         //{
@@ -436,33 +437,33 @@ namespace OrganizadorJAEM
         //    }
         //}
 
-        private void EditarTareaRapido(int idSeleccionado)
-        {
-            bool tareaPagadaSeleccionada = pagosTareas.Any(p => p.Id_Tarea == idSeleccionado && p.Pagado.HasValue);
-            ckB_TareaPagada.Checked = tareaPagadaSeleccionada;
+        //private void EditarTareaRapido(int idSeleccionado)
+        //{
+        //    bool tareaPagadaSeleccionada = pagosTareas.Any(p => p.Id_Tarea == idSeleccionado && p.Pagado.HasValue);
+        //    ckB_TareaPagada.Checked = tareaPagadaSeleccionada;
 
-            // Verificar si hay pagos para la tarea seleccionada en PagoTutor
-            bool tutorPagadoSeleccionado = pagosTutores.Any(p => p.Id_Tarea == idSeleccionado && p.Pagado.HasValue);
-            ckB_TutorPagado.Checked = tutorPagadoSeleccionado;
+        //    // Verificar si hay pagos para la tarea seleccionada en PagoTutor
+        //    bool tutorPagadoSeleccionado = pagosTutores.Any(p => p.Id_Tarea == idSeleccionado && p.Pagado.HasValue);
+        //    ckB_TutorPagado.Checked = tutorPagadoSeleccionado;
 
-            // Buscar la tarea seleccionada en la lista de tareas pendientes
-            Forms.Tarea tareaSeleccionada = tareasPendientes.FirstOrDefault(t => t.Id_Tarea == idSeleccionado);
+        //    // Buscar la tarea seleccionada en la lista de tareas pendientes
+        //    Forms.Tarea tareaSeleccionada = tareasPendientes.FirstOrDefault(t => t.Id_Tarea == idSeleccionado);
 
-            if (tareaSeleccionada != null)
-            {
-                // Verificar el estado de la tarea (iniciada, terminada, entregada)
-                ckB_TareaIniciada.Checked = tareaSeleccionada.Iniciado.HasValue;
-                ckB_TareaTerminada.Checked = tareaSeleccionada.Finalizado.HasValue;
-                ckB_TareaEntregada.Checked = tareaSeleccionada.Entregado.HasValue;
-            }
-            else
-            {
-                // Si no se encontró la tarea en la lista de tareas pendientes, desactivar los CheckBox.
-                ckB_TareaIniciada.Checked = false;
-                ckB_TareaTerminada.Checked = false;
-                ckB_TareaEntregada.Checked = false;
-            }
-        }
+        //    if (tareaSeleccionada != null)
+        //    {
+        //        // Verificar el estado de la tarea (iniciada, terminada, entregada)
+        //        ckB_TareaIniciada.Checked = tareaSeleccionada.Iniciado.HasValue;
+        //        ckB_TareaTerminada.Checked = tareaSeleccionada.Finalizado.HasValue;
+        //        ckB_TareaEntregada.Checked = tareaSeleccionada.Entregado.HasValue;
+        //    }
+        //    else
+        //    {
+        //        // Si no se encontró la tarea en la lista de tareas pendientes, desactivar los CheckBox.
+        //        ckB_TareaIniciada.Checked = false;
+        //        ckB_TareaTerminada.Checked = false;
+        //        ckB_TareaEntregada.Checked = false;
+        //    }
+        //}
 
 
         //private void dGV_TareasProgramadas_RowPrePaint(object sender, DataGridViewRowPrePaintEventArgs e)
@@ -482,69 +483,69 @@ namespace OrganizadorJAEM
         //    }
         //}
 
-        private void btn_Aplicar_Click(object sender, EventArgs e)
-        {
-            if (idSeleccionado != -1)
-            {
-                // Obtener las fechas y el valor de horas
-                DateTime? iniciado = null;
-                DateTime? finalizado = null;
-                DateTime? entregado = null;
-                DateTime? tutorPagado = null;
-                DateTime? tareaPagada = null;
-                decimal horas = nUD_Horas.Value;
-                if (ckB_TareaIniciada.Checked)
-                {
-                    iniciado = DateTime.Now;
-                }
+        //private void btn_Aplicar_Click(object sender, EventArgs e)
+        //{
+        //    if (idSeleccionado != -1)
+        //    {
+        //        // Obtener las fechas y el valor de horas
+        //        DateTime? iniciado = null;
+        //        DateTime? finalizado = null;
+        //        DateTime? entregado = null;
+        //        DateTime? tutorPagado = null;
+        //        DateTime? tareaPagada = null;
+        //        decimal horas = nUD_Horas.Value;
+        //        if (ckB_TareaIniciada.Checked)
+        //        {
+        //            iniciado = DateTime.Now;
+        //        }
 
-                if (ckB_TareaTerminada.Checked)
-                {
-                    finalizado = DateTime.Now;
-                }
+        //        if (ckB_TareaTerminada.Checked)
+        //        {
+        //            finalizado = DateTime.Now;
+        //        }
 
-                if (ckB_TareaEntregada.Checked)
-                {
-                    entregado = DateTime.Now;
-                }
-                if (ckB_TutorPagado.Checked)
-                {
-                    tutorPagado = DateTime.Now;
-                }
-                if (ckB_TareaPagada.Checked)
-                {
-                    tareaPagada = DateTime.Now;
-                }
-                // Llamar al método ActualizarTarea para actualizar los datos en la base de datos
-                Forms.Tarea.ActualizarTarea(cadenaConexion, idSeleccionado, iniciado, finalizado, entregado, horas);
-                PagoTarea.ActualizarPagoTarea(cadenaConexion, idPagoTarea(idSeleccionado), tareaPagada);
-                PagoTutor.ActualizarPagoTutor(cadenaConexion, idPagoTutor(idSeleccionado), tutorPagado);
+        //        if (ckB_TareaEntregada.Checked)
+        //        {
+        //            entregado = DateTime.Now;
+        //        }
+        //        if (ckB_TutorPagado.Checked)
+        //        {
+        //            tutorPagado = DateTime.Now;
+        //        }
+        //        if (ckB_TareaPagada.Checked)
+        //        {
+        //            tareaPagada = DateTime.Now;
+        //        }
+        //        // Llamar al método ActualizarTarea para actualizar los datos en la base de datos
+        //        Forms.Tarea.ActualizarTarea(cadenaConexion, idSeleccionado, iniciado, finalizado, entregado, horas);
+        //        PagoTarea.ActualizarPagoTarea(cadenaConexion, idPagoTarea(idSeleccionado), tareaPagada);
+        //        PagoTutor.ActualizarPagoTutor(cadenaConexion, idPagoTutor(idSeleccionado), tutorPagado);
 
-                // Actualizar la lista de tareas pendientes y recargar el DataGridView
-                int idSeleccionadoo = idSeleccionado;
-                CargarDatos();
-                //// Buscar la fila correspondiente a idSeleccionado y seleccionarla en el DataGridView
-                //foreach (DataGridViewRow row in dGV_TareasProgramadas.Rows)
-                //{
-                //    int idTarea = Convert.ToInt32(row.Cells["Id_Tarea"].Value);
-                //    if (idTarea == idSeleccionadoo)
-                //    {
-                //        // Desmarcar cualquier otra fila seleccionada
-                //        dGV_TareasProgramadas.ClearSelection();
-                //        // Seleccionar la fila encontrada
-                //        row.Selected = true;
-                //        // Asegurarse de que la fila seleccionada sea visible en el DataGridView
-                //        dGV_TareasProgramadas.FirstDisplayedScrollingRowIndex = row.Index;
-                //        break;
-                //    }
-                //}
+        //        // Actualizar la lista de tareas pendientes y recargar el DataGridView
+        //        int idSeleccionadoo = idSeleccionado;
+        //        CargarDatos();
+        //        //// Buscar la fila correspondiente a idSeleccionado y seleccionarla en el DataGridView
+        //        //foreach (DataGridViewRow row in dGV_TareasProgramadas.Rows)
+        //        //{
+        //        //    int idTarea = Convert.ToInt32(row.Cells["Id_Tarea"].Value);
+        //        //    if (idTarea == idSeleccionadoo)
+        //        //    {
+        //        //        // Desmarcar cualquier otra fila seleccionada
+        //        //        dGV_TareasProgramadas.ClearSelection();
+        //        //        // Seleccionar la fila encontrada
+        //        //        row.Selected = true;
+        //        //        // Asegurarse de que la fila seleccionada sea visible en el DataGridView
+        //        //        dGV_TareasProgramadas.FirstDisplayedScrollingRowIndex = row.Index;
+        //        //        break;
+        //        //    }
+        //        //}
 
-            }
-            else
-            {
-                Terminal("Debe seleccionar una tarea primero.");
-            }
-        }
+        //    }
+        //    else
+        //    {
+        //        Terminal("Debe seleccionar una tarea primero.");
+        //    }
+        //}
         private int idPagoTarea(int idTarea)
         {
             // Buscar en la lista de pagosTareas el elemento que tenga el mismo Id_Tarea que el valor proporcionado
@@ -622,7 +623,7 @@ namespace OrganizadorJAEM
                     string nombreTutor = ObtenerNombreTutor((int)tareaSeleccionada.Id_Tutor);
 
                     // Cargar los datos en los controles
-                    cB_Estudiante.SelectedItem = nombreEstudiante;
+                    //cB_Estudiante.SelectedItem = nombreEstudiante;
                     //cB_Tutor.SelectedItem = nombreTutor;
                     //cB_Tema.Text = tareaSeleccionada.Tema;
                     //tB_Descripccion.Text = tareaSeleccionada.Descripcion;
@@ -688,7 +689,9 @@ namespace OrganizadorJAEM
                     dataTable.Columns.Add("Tema", typeof(string));
                     dataTable.Columns.Add("Descripcion", typeof(string));
                     dataTable.Columns.Add("Vence", typeof(string));
-                    foreach (var tar in TS.TareasScrapeadas)
+                    dataTable.Columns.Add("nota", typeof(double));
+
+                foreach (var tar in TS.TareasScrapeadas)
                     {
                         DataRow row = dataTable.NewRow();
 
@@ -746,19 +749,19 @@ namespace OrganizadorJAEM
         {
             if (tabControlTareas.SelectedTab.Text == "Tareas")
             {
-                btn_Cargar.Enabled = false;
-                btn_Editar.Enabled = true;
-                btn_Borrar.Enabled = true;
-                btn_Cancelar.Enabled = true;
-                btn_Aplicar.Enabled = true;
+                //btn_Cargar.Enabled = false;
+                //btn_Editar.Enabled = true;
+                //btn_Borrar.Enabled = true;
+                //btn_Cancelar.Enabled = true;
+                //btn_Aplicar.Enabled = true;
             }
             else if (tabControlTareas.SelectedTab.Text == "Scraper")
             {
-                btn_Cargar.Enabled = true;
-                btn_Editar.Enabled = false;
-                btn_Borrar.Enabled = false;
-                btn_Cancelar.Enabled = false;
-                btn_Aplicar.Enabled = false;
+                //btn_Cargar.Enabled = true;
+                //btn_Editar.Enabled = false;
+                //btn_Borrar.Enabled = false;
+                //btn_Cancelar.Enabled = false;
+                //btn_Aplicar.Enabled = false;
             }
         }
         private void btn_Cargar_Click(object sender, EventArgs e)
@@ -772,6 +775,11 @@ namespace OrganizadorJAEM
             {
                 Terminal("Debe seleccionar una tarea primero.");
             }
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

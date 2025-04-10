@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\JAEM\\ESTUDIOS\\UTEC\\2025\\Administracion de centros de computo\\Task Manager\\",
+  "WorkspaceRootPath": "D:\\JAEM\\ESTUDIOS\\UTEC\\2025\\Administracion de centros de computo\\Task-Manager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7CBEA167-EAC1-421B-8E00-B6B60D23CC9D}|Task Manager.csproj|D:\\JAEM\\ESTUDIOS\\UTEC\\2025\\Administracion de centros de computo\\Task Manager\\forms\\prinsipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7CBEA167-EAC1-421B-8E00-B6B60D23CC9D}|Task Manager.csproj|d:\\jaem\\estudios\\utec\\2025\\administracion de centros de computo\\task-manager\\forms\\prinsipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7CBEA167-EAC1-421B-8E00-B6B60D23CC9D}|Task Manager.csproj|solutionrelative:forms\\prinsipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CBEA167-EAC1-421B-8E00-B6B60D23CC9D}|Task Manager.csproj|d:\\jaem\\estudios\\utec\\2025\\administracion de centros de computo\\task manager\\forms\\prinsipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CBEA167-EAC1-421B-8E00-B6B60D23CC9D}|Task Manager.csproj|D:\\JAEM\\ESTUDIOS\\UTEC\\2025\\Administracion de centros de computo\\Task-Manager\\scraper\\tareasscraping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CBEA167-EAC1-421B-8E00-B6B60D23CC9D}|Task Manager.csproj|solutionrelative:scraper\\tareasscraping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CBEA167-EAC1-421B-8E00-B6B60D23CC9D}|Task Manager.csproj|D:\\JAEM\\ESTUDIOS\\UTEC\\2025\\Administracion de centros de computo\\Task-Manager\\forms\\prinsipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CBEA167-EAC1-421B-8E00-B6B60D23CC9D}|Task Manager.csproj|solutionrelative:forms\\prinsipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,27 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Prinsipal.cs",
-              "DocumentMoniker": "D:\\JAEM\\ESTUDIOS\\UTEC\\2025\\Administracion de centros de computo\\Task Manager\\Forms\\Prinsipal.cs",
-              "RelativeDocumentMoniker": "Forms\\Prinsipal.cs",
-              "ToolTip": "D:\\JAEM\\ESTUDIOS\\UTEC\\2025\\Administracion de centros de computo\\Task Manager\\Forms\\Prinsipal.cs",
-              "RelativeToolTip": "Forms\\Prinsipal.cs",
-              "ViewState": "AQIAAMsCAAAAAAAAAAAAAN8CAAALAAAA",
+              "Title": "TareasScraping.cs",
+              "DocumentMoniker": "D:\\JAEM\\ESTUDIOS\\UTEC\\2025\\Administracion de centros de computo\\Task-Manager\\Scraper\\TareasScraping.cs",
+              "RelativeDocumentMoniker": "Scraper\\TareasScraping.cs",
+              "ToolTip": "D:\\JAEM\\ESTUDIOS\\UTEC\\2025\\Administracion de centros de computo\\Task-Manager\\Scraper\\TareasScraping.cs",
+              "RelativeToolTip": "Scraper\\TareasScraping.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAmwFwAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T14:57:13.472Z",
+              "WhenOpened": "2025-04-03T00:37:17.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Prinsipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\JAEM\\ESTUDIOS\\UTEC\\2025\\Administracion de centros de computo\\Task Manager\\Forms\\Prinsipal.cs",
+              "DocumentMoniker": "D:\\JAEM\\ESTUDIOS\\UTEC\\2025\\Administracion de centros de computo\\Task-Manager\\Forms\\Prinsipal.cs",
               "RelativeDocumentMoniker": "Forms\\Prinsipal.cs",
-              "ToolTip": "D:\\JAEM\\ESTUDIOS\\UTEC\\2025\\Administracion de centros de computo\\Task Manager\\Forms\\Prinsipal.cs [Dise\u00F1o]",
+              "ToolTip": "D:\\JAEM\\ESTUDIOS\\UTEC\\2025\\Administracion de centros de computo\\Task-Manager\\Forms\\Prinsipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "Forms\\Prinsipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T16:28:24.512Z",
+              "WhenOpened": "2025-04-03T00:30:53.254Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Prinsipal.cs",
+              "DocumentMoniker": "D:\\JAEM\\ESTUDIOS\\UTEC\\2025\\Administracion de centros de computo\\Task-Manager\\Forms\\Prinsipal.cs",
+              "RelativeDocumentMoniker": "Forms\\Prinsipal.cs",
+              "ToolTip": "D:\\JAEM\\ESTUDIOS\\UTEC\\2025\\Administracion de centros de computo\\Task-Manager\\Forms\\Prinsipal.cs",
+              "RelativeToolTip": "Forms\\Prinsipal.cs",
+              "ViewState": "AQIAAJsCAAAAAAAAAAAswKwCAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T00:30:23.605Z",
+              "EditorCaption": ""
             }
           ]
         }
