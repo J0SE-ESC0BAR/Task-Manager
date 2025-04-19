@@ -1,18 +1,8 @@
 /packages
-.vs/Task Manager/FileContentIndex/5307483a-fc06-4ffb-aea1-b97f59960bc1.vsidx
-.vs/Task Manager/FileContentIndex/e82f587b-ccfc-4c7b-b306-1543688e25fb.vsidx
-.vs/Task Manager/v17/.suo
-.vs/Task Manager/v17/DocumentLayout.json
-bin/Debug/app.publish/OrganizadorJAEM.exe
-bin/Debug/OrganizadorJAEM.application
-bin/Debug/OrganizadorJAEM.exe
-bin/Debug/OrganizadorJAEM.exe.manifest
-bin/Debug/OrganizadorJAEM.pdb
-obj/Debug/OrganizadorJAEM.application
-obj/Debug/OrganizadorJAEM.exe
-obj/Debug/OrganizadorJAEM.application
-obj/Debug/OrganizadorJAEM.pdb
+.vs/
+bin/
+obj/
+Task Manager.csproj.user
+# Archivos de caché y temporales
 *.cache
-.vs/Task Manager/v17/.suo
 *.vsidx
-.vs/Task Manager/v17/.suo
